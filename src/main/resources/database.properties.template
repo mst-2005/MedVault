@@ -1,0 +1,8 @@
+# Database Configuration for Health-ID Vault
+# Copy this file to database.properties and update with your credentials
+# Do NOT add query-string parameters to db.url — DatabaseConfig appends them automatically.
+
+db.url=jdbc:mysql://localhost:3306/health_vault
+db.username=root
+db.password=YOUR_MYSQL_PASSWORD_HERE
+db.driver=com.mysql.cj.jdbc.Driver

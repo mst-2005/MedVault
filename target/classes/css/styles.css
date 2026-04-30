@@ -1,0 +1,426 @@
+/* Health-ID Vault Application Styles */
+
+/* Global Styles */
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 12px;
+    -fx-background-color: #f5f5f5;
+}
+
+/* Main Container */
+.main-container {
+    -fx-background-color: linear-gradient(to bottom, #2c3e50, #3498db);
+    -fx-padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 15px;
+    -fx-border-color: #34495e;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.user-info {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 14px;
+}
+
+/* Button Styles */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.button:pressed {
+    -fx-background-color: #21618c;
+}
+
+.button.primary {
+    -fx-background-color: #27ae60;
+}
+
+.button.primary:hover {
+    -fx-background-color: #229954;
+}
+
+.button.danger {
+    -fx-background-color: #e74c3c;
+}
+
+.button.danger:hover {
+    -fx-background-color: #c0392b;
+}
+
+.button.secondary {
+    -fx-background-color: #95a5a6;
+}
+
+.button.secondary:hover {
+    -fx-background-color: #7f8c8d;
+}
+
+/* Card Styles */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-padding: 20px;
+}
+
+.card-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 0 0 10px 0;
+}
+
+/* Form Styles */
+.form-field {
+    -fx-padding: 10px 0;
+}
+
+.form-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 5px 0;
+}
+
+.text-field {
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-background-color: white;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2px;
+}
+
+.password-field {
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-background-color: white;
+}
+
+.password-field:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2px;
+}
+
+.combo-box {
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: white;
+    -fx-padding: 8px;
+}
+
+.date-picker {
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: white;
+}
+
+.text-area {
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: white;
+    -fx-padding: 8px;
+}
+
+/* Table Styles */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: #ecf0f1;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 10px;
+}
+
+.table-view .table-cell {
+    -fx-padding: 8px;
+    -fx-border-color: #ecf0f1;
+    -fx-border-width: 0 1px 0 0;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+/* List View Styles */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.list-view .list-cell {
+    -fx-padding: 10px;
+    -fx-border-color: #ecf0f1;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+/* Tab Pane Styles */
+.tab-pane {
+    -fx-background-color: #ecf0f1;
+    -fx-border-radius: 5px;
+}
+
+.tab-pane .tab-header-area {
+    -fx-background-color: #34495e;
+    -fx-border-radius: 5px 5px 0 0;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #34495e;
+    -fx-text-fill: #ecf0f1;
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-border-color: transparent;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: white;
+    -fx-text-fill: #2c3e50;
+}
+
+.tab-pane .tab-content-area {
+    -fx-background-color: white;
+    -fx-border-radius: 0 0 5px 5px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    -fx-accent: #3498db;
+}
+
+.progress-bar .track {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 5px;
+}
+
+/* Hyperlink */
+.hyperlink {
+    -fx-text-fill: #3498db;
+    -fx-underline: true;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #2980b9;
+}
+
+/* Status Messages */
+.status-success {
+    -fx-text-fill: #27ae60;
+    -fx-font-weight: bold;
+}
+
+.status-error {
+    -fx-text-fill: #e74c3c;
+    -fx-font-weight: bold;
+}
+
+.status-warning {
+    -fx-text-fill: #f39c12;
+    -fx-font-weight: bold;
+}
+
+/* Dashboard Specific */
+.dashboard-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
+.stat-number {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.stat-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* File Upload Area */
+.upload-area {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2px dashed;
+    -fx-border-radius: 10px;
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 10px;
+    -fx-padding: 40px;
+    -fx-alignment: center;
+}
+
+.upload-area:hover {
+    -fx-border-color: #2980b9;
+    -fx-background-color: #d5dbdb;
+}
+
+/* Search Box */
+.search-box {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-padding: 8px 15px;
+}
+
+/* Menu Bar */
+.menu-bar {
+    -fx-background-color: #34495e;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+.menu-bar .menu-button {
+    -fx-background-color: transparent;
+}
+
+.context-menu {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+}
+
+.menu-item {
+    -fx-background-color: white;
+    -fx-text-fill: #2c3e50;
+}
+
+.menu-item:hover {
+    -fx-background-color: #ecf0f1;
+}
+
+/* Tooltip */
+.tooltip {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+/* Scroll Bar */
+.scroll-bar {
+    -fx-background-color: #ecf0f1;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #bdc3c7;
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #95a5a6;
+}
+
+/* Dialog Styles */
+.dialog-pane {
+    -fx-background-color: white;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #34495e;
+    -fx-background-radius: 10px 10px 0 0;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Responsive Design */
+.small-screen {
+    -fx-font-size: 10px;
+}
+
+.medium-screen {
+    -fx-font-size: 12px;
+}
+
+.large-screen {
+    -fx-font-size: 14px;
+}
+
+/* Animation Classes */
+.fade-in {
+    -fx-opacity: 0;
+    -fx-animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from { -fx-opacity: 0; }
+    to { -fx-opacity: 1; }
+}
+
+.slide-in {
+    -fx-translate-y: -20px;
+    -fx-animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+    from { -fx-translate-y: -20px; -fx-opacity: 0; }
+    to { -fx-translate-y: 0; -fx-opacity: 1; }
+}
